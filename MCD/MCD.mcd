@@ -1,0 +1,3 @@
+client: idClient, nom, prenom, age, ville, email, mdp, image, idAdmin
+publier, ON client, 11 evenement
+evenement: titre, contenu, image

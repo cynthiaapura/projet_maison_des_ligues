@@ -1,0 +1,19 @@
+{
+  "width": 280,
+  "height": 204,
+  "cx": [
+    [ "CLIENT", 39 ],
+    [ "PUBLIER", 131 ],
+    [ "EVENEMENT", 232 ]
+  ],
+  "cy": [
+    [ "CLIENT", 102 ],
+    [ "PUBLIER", 102 ],
+    [ "EVENEMENT", 102 ]
+  ],
+  "shift": [
+    [ "PUBLIER,CLIENT,0", 0 ],
+    [ "PUBLIER,EVENEMENT,0", 0 ]
+  ],
+  "ratio": []
+}
