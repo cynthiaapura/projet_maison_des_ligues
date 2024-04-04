@@ -1,5 +1,7 @@
 # Maison des ligues
 
+Lien vers le site de la Maison des Ligues de Lorraine : [cliquez ici](https://cynthiaapura.github.io/projet_maison_des_ligues/)
+
 ## Contexte du projet
 
 Dans le cadre de notre BTS, nous devons réaliser un projet web, une connexion à une base de donnée et une gestion d'employés et d'événements.
