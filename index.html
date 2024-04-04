@@ -10,12 +10,78 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/site.webmanifest">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
     <title>M2L</title>
 </head>
 <body>
-    <header>
-
+    <header class="headband">
+        <a href="#">
+            <img src="./asset/mascotte.png" alt="Logo JO Paris" aria-hidden="true">
+        </a>           
+        <h1 class="m2l">
+            M2L - Maison des Ligues de Lorraine
+        </h1>
+    
+        <nav class="navbar">
+            <a href="#event_view" id="event" class="button">Tous les événements</a>
+            <a href="#inscription" id="inscription" class="button">S'inscrire</a>
+            <a href="#connection" id="connection" class="button">Connexion</a>
+        </nav>
     </header>
+
+    <main>
+        <section class="home">
+            <div id="bg-texte">
+                <p>
+                    Maison des Ligues de Lorraine
+                </p>
+            </div>
+            <div id="bg-img"></div>
+        </section>
+
+        <section class="event" id="event_view">
+            <h2>
+                Prêt(e) à la compétition ? Cliquez sur le bouton pour commencer
+            </h2>
+            <p>
+                Tous les mois profitez de toutes les nouveautés et opportunités. À partir du mois prochain on vous propose toutes les séances de sport sur vos supports préférés.
+            </p>
+        </section>
+        <div class="gallery-primary" role="group" aria-labelledby="event">
+            <ul id="event">
+                <li><img src="./asset/mascotte.png" alt="ville de pise">
+                    Titre
+                </li>
+                <li><img src="./asset/mascotte.png" alt="ville de paris">
+                    Titre
+                </li>
+                <li><img src="./asset/mascotte.png" alt="ville de new york">
+                    Titre
+                </li>
+                <li><img src="./asset/mascotte.png" alt="ville de los angeles">
+                    Titre
+                </li>
+                <li><img src="./asset/mascotte.png" alt="ville de pise">
+                    Titre
+                </li>
+                <li><img src="./asset/mascotte.png" alt="ville de paris">
+                    Titre
+                </li>
+                <li><img src="./asset/mascotte.png" alt="ville de new york">
+                    Titre
+                </li>
+                <li><img src="./asset/mascotte.png" alt="ville de los angeles">
+                    Titre
+                </li>
+            </ul>
+        </div>
+        <button class="button_account" type="submit" value="Envoyer" aria-label="Connexion à votre compte">
+            <a href="inscription.html">Cliquez pour vous inscrire</a>
+        </button>
+
+    </main>
+    <footer>
+        M2L - 2024
+    </footer>
 </body>
 </html>
