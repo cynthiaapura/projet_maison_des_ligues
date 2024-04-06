@@ -1,39 +1,4 @@
 
-.headband{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    background-color: var(--white);
-    vertical-align: middle;
-    box-shadow: 0px 5px 12px #414141;
-}
-
-header img{
-    cursor: pointer;
-    width: 40px;
-    vertical-align: middle;
-    padding-left: 1rem;
-}
-
-.m2l{
-    display: flex;
-    font-size: inherit;
-    padding-right: 40rem;
-}
-
-.navbar a{
-    margin: auto 3rem 0 4rem;
-    padding: 10px 20px;
-    border-radius: 2px;
-    cursor: pointer;
-    display: inline-flex;
-    background-color: var(--white);
-    color: var(--blue);
-    font-size: inherit;
-}
-
 #formInscription{
     height: 100vh; 
     flex-direction: column;
@@ -47,7 +12,7 @@ header img{
     max-width: 40%;
     font-size: 4rem;
     margin: auto;
-    padding-top: 8rem;
+    padding-top: 7rem;
 }
 
 .formInscription p{
@@ -57,6 +22,7 @@ header img{
     margin-top: 2rem;
     margin: auto;
 }
+
 .warning{
     top: 35%;
     left: 50%;
@@ -64,12 +30,13 @@ header img{
     width: max-content;
     transform: translate(-50%, -35%);
     font-weight: bolder;
-    color: #0a7e14;
+    color: var(--red);
     font-size: 1.8rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
    
 }
+
 .inscription-form fieldset {
     border-radius: 1rem;
     border: solid .1rem rgb(0, 0, 0);
@@ -83,7 +50,8 @@ header img{
 
 .inscription-form{
     max-width: 100rem;
-    margin: 5rem auto 2rem;
+    margin: 0 auto 2rem;
+    padding-top: 5rem;
 }
 
 .inscription-form form *{
@@ -95,7 +63,6 @@ header img{
     width: auto;
     margin: 2rem 0;
 }
-
 
 .inscription-form form input{
     width: 100%;
@@ -118,9 +85,11 @@ header img{
     font-style: italic;
     transition: all .6s ease-in-out;
 }
+
 .incription-form form [placeholder]:focus{
     font-style: normal;
 }
+
 .incription-form form input:focus:not(.incription-form form input[type="submit"],
 .incription-form form input[type="checkbox"]){
     outline: 0;
@@ -128,6 +97,7 @@ header img{
     width: 100%;
     border-bottom: solid .1rem rgb(79, 79, 79);
 }
+
 form input[type="checkbox"]{
     display: inline-block;
     width: auto;
@@ -138,23 +108,21 @@ form input[type="checkbox"]{
     font-style: italic;
 }
 
-
-
 /* bouton valider */
 
 button[type="submit"]{
 
-    background-color: #0D6FEB ;
+    background-color: var(--blue);
     margin-top: 1rem;
     cursor: pointer;
     width: 35%;
-    color: #fff;
+    color: var(--white);
     text-transform: uppercase;
     font-size: medium;
 }
 
 .inscription-form form button {
-    margin: 2rem auto;
+    margin: .5rem auto;
     display: block;
     padding: 2rem;
     border-radius: .4rem;

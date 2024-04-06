@@ -14,7 +14,7 @@
     <title>M2L</title>
 </head>
 <body>
-    <header>
+    <header class="headband">
         <a href="#">
             <img src="./asset/mascotte.png" alt="Logo JO Paris" aria-hidden="true">
         </a>           
@@ -23,11 +23,12 @@
         </h1>
     
         <nav class="navbar">
-            <a href="#event_view" id="event" class="button">Tous les événements</a>
+            <a href="index.html" id="event" class="button">Tous les événements</a>
             <a href="#inscription" id="inscription" class="button">S'inscrire</a>
             <a href="#connection" id="connection" class="button">Connexion</a>
         </nav>
     </header>
+
     <main>
         <div class="inscription-form" id="formInscription" role="form" aria-labelledby="formInscription">
             <fieldset>
@@ -44,13 +45,13 @@
                 <input type="text" id="user-lastname" name="Prénom" 
                 placeholder="Votre prenom" aria-required="true">
 
-                <label for="email">Age *</label>
-                <input type="email" id="email" name="age" 
-                placeholder="Votre mail" aria-required="true">
+                <label for="age">Age *</label>
+                <input type="text" id="age" name="Age" 
+                placeholder="Age" aria-required="true">
 
-                <label for="email">Ville *</label>
-                <input type="email" id="email" name="ville" 
-                placeholder="Votre mail" aria-required="true">
+                <label for="ville">Ville *</label>
+                <input type="text" id="ville" name="ville" 
+                placeholder="Ville" aria-required="true">
 
                 <label for="email">Email *</label>
                 <input type="email" id="email" name="votre email" 
@@ -74,4 +75,7 @@
             </fieldset>
         </div>
     </main>
+    <footer>
+        M2L - 2024
+    </footer>
 </body>

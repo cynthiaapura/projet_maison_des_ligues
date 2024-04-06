@@ -80,7 +80,7 @@ header img{
 .gallery-primary{
     max-width: 120rem;
     margin: 5rem auto 5rem;
-    background-color: #fff;
+    background-color: var(--white);
 }
 
 .gallery-primary ul{
@@ -107,6 +107,8 @@ header img{
     border-radius: .4rem;
     font-size: large;
     font-weight: bold;
+    background-color: var(--blue);
+    color: var(--white);
 }
 
 /* footer */
