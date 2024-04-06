@@ -82,6 +82,7 @@ header img{
     max-width: 120rem;
     margin: 5rem auto 5rem;
     background-color: var(--white);
+    cursor: pointer;
 }
 
 .gallery-primary ul{
@@ -104,12 +105,15 @@ header img{
 .button_account{
     margin: 2rem auto;
     display: block;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: .4rem;
     font-size: large;
     font-weight: bold;
     background-color: var(--blue);
     color: var(--white);
+    cursor: pointer;
+    width: 35%;
+    text-align: center;
 }
 
 /* footer */
@@ -117,4 +121,5 @@ header img{
 footer{
     text-align: center;
     width: 100%;
+    
 }
