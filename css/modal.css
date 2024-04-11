@@ -18,6 +18,35 @@
     padding: 20px;
     border: 1px solid #888;
     border-radius: 5px;
+    width: 40rem; /* Largeur de la modale */
+    max-width: 600px; /* Largeur maximale de la modale */
+    height: auto; /* Hauteur automatique */
+    max-height: 80%; /* Hauteur maximale de la modale */
+    text-align: center;
+}
+
+.modal-content > figure{
+    position: relative;
+    padding: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40rem;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+.modal-content figure a{
+    color: #fff;
+    font-size: 2rem;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-weight: bolder;
+}
+
+.modal-content figure figcaption{
+    position: relative;
 }
 
 .close {
